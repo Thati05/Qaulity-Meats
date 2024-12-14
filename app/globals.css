@@ -10,3 +10,11 @@
   background-attachment: fixed;
   background-size: cover;
 }
+
+.backgroundExploreMore{
+  background-image: url("/assets/images/Component6.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+  background-size: contain;
+}

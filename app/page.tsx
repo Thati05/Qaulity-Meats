@@ -2,6 +2,7 @@ import React from "react";
 import HeroSection from "@/components/HeroSection";
 import BestButcher from "@/sections/Landing Page/BestButcher";
 import ExporeRange from "@/sections/Landing Page/ExporeRange";
+import ExploreMore from "@/sections/Landing Page/ExploreMore";
 export default function Home() {
   return (
     <main className=" relative w-full justify-center  overflow-hidden font-[family-name:var(--font-mont-sans)]">
@@ -17,7 +18,9 @@ export default function Home() {
    </section>
 <section>
   <ExporeRange/>
+  <ExploreMore/>
 </section>
+
     </main>
   );
 }
