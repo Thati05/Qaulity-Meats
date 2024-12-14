@@ -2,3 +2,11 @@
 @tailwind components;
 @tailwind utilities;
 
+/* Custom utility for background image */
+.backgroundImage {
+  background-image: url("/assets/images/Frame4.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+  background-size: cover;
+}

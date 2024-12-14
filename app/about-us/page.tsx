@@ -1,11 +1,34 @@
-import React from 'react'
+import React from 'react';
+import Image from 'next/image';
+import Component3 from '@/public/assets/images/Component 3.png';
 
 type Props = {}
 
 export default function About({}: Props) {
   return (
-    <div className="grid grid-rows-[20px_1fr_20px] items-center justify-items-center min-h-screen p-8 pb-20 gap-16 sm:p-20 font-[family-name:var(--font-mont-sans)]">
-     About page
-    </div>
+    <main className=" backgroundImage min-h-screen flex max-md:flex-col items-center p-8 pb-20 gap-10  sm:p-20 font-[family-name:var(--font-mont-sans)]">
+     
+<div >
+<Image
+alt=''
+className=' max-md:w-full '
+width={1000}
+src={Component3} />
+</div>
+
+<div className=' flex flex-col gap-5 text-center'>
+  <span className=' text-2xl font-[family-name:var(--font-kalam)] text-crimsonRed font-bold'>Qaulity Meats</span>
+  <h1 className=" capitalize text-4xl font-bold ">Best Bucther in your city Area</h1>
+  <p className=' text-lg'>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Odio, mollitia voluptatum totam reprehenderit porro, repellat, consequatur optio rem assumenda minima pariatur molestias fugiat at aliquam! Eos exercitationem vel nesciunt amet!</p>
+<div>
+
+<button className=' flex-none py-5 px-8 bg-crimsonRed text-white'>
+ Learn More
+</button>
+</div>
+
+</div>
+    
+    </main>
   )
 }
