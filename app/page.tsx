@@ -4,6 +4,7 @@ import BestButcher from "@/sections/Landing Page/BestButcher";
 import ExporeRange from "@/sections/Landing Page/ExporeRange";
 import ExploreMore from "@/sections/Landing Page/ExploreMore";
 import ChooseUs from "@/sections/Landing Page/ChooseUs";
+import Testimonals from "@/sections/Landing Page/Testimonals";
 export default function Home() {
   return (
     <main className=" relative w-full justify-center  overflow-hidden font-[family-name:var(--font-mont-sans)]">
@@ -23,6 +24,9 @@ export default function Home() {
 </section>
 <section>
   <ChooseUs/>
+</section>
+<section className=' mb-20'>
+  <Testimonals/>
 </section>
 
     </main>
