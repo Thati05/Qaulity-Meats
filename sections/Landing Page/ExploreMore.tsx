@@ -1,6 +1,7 @@
 import React from 'react'
 import bgExploreMore from '@/public/assets/images/Component6.png'
 import Image from 'next/image'
+import Link from 'next/link'
 
 type Props = {}
 
@@ -15,11 +16,11 @@ export default function ExploreMore({}: Props) {
       fill
       className=' object-contain'
       />
- <button className='font-extralight relative z-10 flex-none py-3 px-8 max-md:py-[6px] max-md:px-4 max-md:text-sm bg-white text-black'>
-    <a href='/about-us'>
-     Learn More
-    </a>
-    </button>
+
+    <Link className='font-normal relative z-10 flex-none py-3 px-8 max-md:py-[6px] max-md:px-4 max-md:text-sm bg-white text-black' href='/products'>
+     Explore More
+    </Link>
+  
      </div>
    
     

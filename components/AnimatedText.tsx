@@ -39,7 +39,7 @@ export default function AnimatedText({
                     key={`${word}-${index}`}
                     className="inline-flex gap-4 items-center"
                   >
-                    <span className="text-8xl text-crimsonRed font-extrabold">
+                    <span className="text-8xl text-crimsonRed  font-extrabold">
                       {word}
                     </span>
                   </div>

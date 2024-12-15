@@ -14,7 +14,7 @@ export default function ExploreRange({}: Props) {
     <section className="  justify-center flex max-md:flex-col items-center p-8  max-md:mt-16 max-md:pb-0  mt-10 pb-20 gap-10  sm:p-20 font-[family-name:var(--font-mont-sans)]">
          {/* Range Section */}
          <div className=' text-center'>
-        <h1 className="text-4xl max-md:text-2xl max-md:mb-0 mb-20 font-light ">Explore The Range</h1>
+        <h1 className="text-4xl max-md:text-3xl max-md:mb-10 mb-20 font-light ">Explore The Range</h1>
         <div className=' mt-20 hidden md:flex items-center gap-24 '>
           <div className='flex flex-col items-center gap-2'>
             <Image

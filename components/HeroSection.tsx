@@ -15,7 +15,7 @@ export default function HeroSection({}: Props) {
          <Hero  />
       </div>
      
-      <div className=" absolute w-full mt-8 space-y-4">
+      <div className="  absolute w-full mt-8 space-y-4">
         <AnimatedText itemsWrapperClassName="animate-move-left" />
         <AnimatedText itemsWrapperClassName="animate-move-right" />
         <AnimatedText itemsWrapperClassName="animate-move-left" />
